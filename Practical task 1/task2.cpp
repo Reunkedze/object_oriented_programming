@@ -12,7 +12,7 @@ class RGBA {
 public:
 	RGBA(uint8_t r, uint8_t g, uint8_t b, uint8_t a) : m_red(r), m_green(g), m_blue(b), m_alpha(a) {}
 	void print() {
-		cout << "red: " << m_red << endl << "green: " << m_green << endl << "blue: " << m_blue << endl;
+		printf("red: %d\ngreen: %d\nblue: %d\nalpha: %d\n", m_red, m_green, m_blue, m_alpha);
 	}
 };
 
